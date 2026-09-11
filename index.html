@@ -54,6 +54,10 @@
             font-size: 0.9rem;
             margin-top: 14px;
             border: 1px solid rgba(255,255,255,0.35);
+            text-decoration:none;
+            line-height: 1.4;         /* ← NY RAD */
+            text-align: center;       /* ← NY RAD */
+            white-space: nowrap;      /* ← NY RAD */
         }
 
         /* Innehållsboxar */
@@ -142,9 +146,11 @@
         <img src="images/patricia.png" alt="Patricia Nilsson">
         <h1>Patricia Nilsson</h1>
         <p class="subtitle">IT-säkerhetsutvecklare · Göteborg</p>
-        <p class="period">Söker LIA-praktik · 2027-09-13 – 2027-12-17</p>
+        <a href="#kontakt" class="period">
+            Söker LIA-praktik<br>
+            2027-09-13 – 2027-12-17
+        </a>
     </div>
-
     <div class="content">
 
         <div class="box">
@@ -180,7 +186,7 @@
             <p>Ett företag i Göteborgsområdet (eller distans) som vill ta emot en engagerad och nyfiken LIA-student under perioden <strong>13 september – 17 december 2027</strong>. Jag är särskilt intresserad av roller inom IT-säkerhet, incidenthantering, cybersäkerhetsanalys och säkerhetsutveckling.</p>
         </div>
 
-        <div class="box">
+        <div class="box" id="kontakt">
             <h2>Kontakt / intresseanmälan</h2>
             <p>Är ert företag intresserat? Skriv gärna direkt till mig – jag svarar snabbt!</p>
             <div class="contact-info">
