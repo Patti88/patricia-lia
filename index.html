@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patricia Nilsson – LIA-praktik inom IT-säkerhet</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
+            color: #1c1c1c;
+            background: #f0f4f8;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        /* Header med bild + namn */
+        .header {
+            background: linear-gradient(135deg, #0b3d2e 0%, #1a6b52 100%);
+            color: #fff;
+            padding: 40px 30px;
+            border-radius: 16px 16px 0 0;
+            text-align: center;
+        }
+        .header img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-bottom: 18px;
+        }
+        .header h1 {
+            font-size: 1.9rem;
+            margin-bottom: 8px;
+        }
+        .header .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 4px;
+        }
+
+        /* Period-badge */
+        .period {
+            display: inline-block;
+            background: rgba(255,255,255,0.18);
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 24px;
+            font-size: 0.9rem;
+            margin-top: 14px;
+            border: 1px solid rgba(255,255,255,0.35);
+        }
+
+        /* Innehållsboxar */
+        .content {
+            background: #ffffff;
+            padding: 0 30px 30px;
+            border-radius: 0 0 16px 16px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+        }
+        .box {
+            padding: 24px 0;
+            border-bottom: 1px solid #e6edf3;
+        }
+        .box:last-child { border-bottom: none; }
+        .box h2 {
+            color: #0b3d2e;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .box h2::before {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 22px;
+            background: #2e8b6f;
+            border-radius: 3px;
+        }
+
+        /* Kompetenslista */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .skills span {
+            background: #e8f4ef;
+            color: #0b3d2e;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.88rem;
+            font-weight: 500;
+        }
+
+        /* Kontakt */
+        .contact-info {
+            margin: 12px 0 18px;
+        }
+        .contact-info a {
+            color: #0b3d2e;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-info a:hover { text-decoration: underline; }
+
+        a.button {
+            display: inline-block;
+            background: #0b3d2e;
+            color: #fff;
+            padding: 14px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 6px;
+            transition: background 0.2s;
+        }
+        a.button:hover { background: #12523d; }
+
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #8a9ba8;
+            margin-top: 28px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <!-- Byt ut "images/patricia.jpg" mot din bilds filnamn -->
+        <img src="images/patricia.png" alt="Patricia Nilsson">
+        <h1>Patricia Nilsson</h1>
+        <p class="subtitle">IT-säkerhetsutvecklare · Göteborg</p>
+        <p class="period">Söker LIA-praktik · 2027-09-13 – 2027-12-17</p>
+    </div>
+
+    <div class="content">
+
+        <div class="box">
+            <h2>Hej!</h2>
+            <p>Jag är en engagerad tjej från Göteborg som studerar till <strong>IT-säkerhetsutvecklare</strong> och söker LIA-praktik inom säkerhetsområdet. Mitt mål är att bidra till en tryggare digital framtid – och jag ser fram emot att få göra det tillsammans med er.</p>
+        </div>
+
+        <div class="box">
+            <h2>Kort om mig</h2>
+            <p>Jag utbildar mig till IT-säkerhetsutvecklare och har kunskaper inom säkerhetsaspekter för Windows, Linux och Mac OS, både i virtuella och molnbaserade miljöer. Jag arbetar proaktivt med att identifiera och minimera säkerhetsrisker, konfigurera och felsöka säkerhetsinställningar samt skapa skript för automation och säkerhetsarbete. Jag har också tränats i att analysera loggar, upptäcka säkerhetsbrister och föreslå åtgärder.</p>
+        </div>
+
+        <div class="box">
+            <h2>Mina kompetenser</h2>
+            <div class="skills">
+                <span>IT-säkerhet</span>
+                <span>Cybersäkerhet</span>
+                <span>Windows</span>
+                <span>Linux</span>
+                <span>Mac OS</span>
+                <span>Molntjänster</span>
+                <span>Skriptning</span>
+                <span>Säkerhetsanalys</span>
+                <span>Logganalys</span>
+                <span>Sårbarhetsanalys</span>
+                <span>Microsoft 365</span>
+                <span>Felsökning</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>Vad jag söker</h2>
+            <p>Ett företag i Göteborgsområdet (eller distans) som vill ta emot en engagerad och nyfiken LIA-student under perioden <strong>13 september – 17 december 2027</strong>. Jag är särskilt intresserad av roller inom IT-säkerhet, incidenthantering, cybersäkerhetsanalys och säkerhetsutveckling.</p>
+        </div>
+
+        <div class="box">
+            <h2>Kontakt / intresseanmälan</h2>
+            <p>Är ert företag intresserat? Skriv gärna direkt till mig – jag svarar snabbt!</p>
+            <div class="contact-info">
+                📧 <a href="mailto:patti.ai.dev@gmail.com">patti.ai.dev@gmail.com</a><br>
+                📱 <a href="tel:+46739722591">073-972 25 91</a>
+            </div>
+            <a class="button" href="mailto:patti.ai.dev@gmail.com?subject=Intresseanm%C3%A4lan%20LIA%20IT-s%C3%A4kerhet%20-%20Patricia%20Nilsson&body=Hej%20Patricia%2C%0A%0AVi%20%C3%A4r%20intresserade%20av%20att%20ta%20emot%20dig%20som%20LIA-student.%0A%0AMed%20v%C3%A4nlig%20h%C3%A4lsning%0A">Skicka intresseanmälan</a>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2027 Patricia Nilsson · Göteborg
+    </footer>
+
+</div>
+
+</body>
+</html>
